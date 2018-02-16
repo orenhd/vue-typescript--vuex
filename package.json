@@ -1,0 +1,44 @@
+{
+  "name": "vue-typescript--vuex",
+  "version": "1.0.0",
+  "description": "A Vue.js + Typescript and Vuex boilerplate playground, based on Microsoft's Typescript-Vue-Starter - https://github.com/Microsoft/TypeScript-Vue-Starter",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm-run-all --parallel --continue-on-error watch server",
+    "watch": "webpack --watch",
+    "server": "webpack-dev-server --inline",
+    "build:prod": "webpack --env.production -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Oren Hadar",
+    "url": "https://github.com/orenhd"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.0.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "vue": "^2.5.2",
+    "vue-class-component": "^6.0.0",
+    "vue-i18n": "^7.4.2",
+    "vue-loader": "^12.0.3",
+    "vue-property-decorator": "^6.0.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.2",
+    "vuex": "^3.0.1",
+    "vuex-persist": "^1.1.1",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
