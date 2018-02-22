@@ -7,7 +7,7 @@ interface state {
     clickingData: dataModels.ClickingData | null;
 }
 
-const module:Module<state, null> = { //TODO: define state amd rootState models
+const module:Module<state, null> = {
     namespaced: true,
     state: {
         userName: 'World',

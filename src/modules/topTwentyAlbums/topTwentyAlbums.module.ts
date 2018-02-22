@@ -38,7 +38,7 @@ const module:Module<state, null> = {
                 ITunesService.getGenres().then((genres: dataModels.ITunesGenre[]) => {
                     commit('setGenres', genres);
                     if (genres && genres[0]) {
-                        commit('setCurrentGenreId', genres[0].id);
+                        //loading genre ids is always followed by loading the selected genre albums list
                         dispatch('loadAlbumEntriesByGenreId', genres[0].id);
                     }
                 })

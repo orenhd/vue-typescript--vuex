@@ -25,11 +25,4 @@ export default class GenreSelectionBar extends Vue {
 
 <style lang="scss" scoped>
     @import '~styles/variables'; //tilde to resolve 'like a module'
-
-    .genre-select {
-        height: 2em;
-        font-size: 1em;
-        margin: 0.25em 1em;
-    }
-    
 </style>

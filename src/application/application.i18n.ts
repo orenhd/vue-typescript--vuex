@@ -9,6 +9,7 @@ const i18n = new VueI18n({
                 greeting: 'Hello, {0}'
             },
             clickingExample: {
+                userName: 'User Name',
                 clickingExample: 'Clicking Example',
                 homeButtonClicked: 'Home button was clicked 1 time | Home button was clicked {count} times',
                 homeButtonClickedOutside: 'Home button was clicked outside 1 time | Home button was clicked outside {count} times'
