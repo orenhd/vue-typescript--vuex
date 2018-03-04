@@ -3,6 +3,7 @@ var path = require('path')
 var webpack = require('webpack')
 
 var config = {
+  mode: 'development',
   entry: './src/index.ts',
   output: {
     path: path.resolve(__dirname, './dist'),
@@ -68,6 +69,7 @@ var config = {
 
 module.exports = (env) => {
   if (env && env.production) {
+    config.mode = 'production'
     config.devtool = '#source-map'
     config.output.filename = 'build.min.js'
     // http://vue-loader.vuejs.org/en/workflow/production.html
